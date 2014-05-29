@@ -5,18 +5,21 @@ core = 7.x
 
 ; REGIONS
 ;------------------------------------------------------------------------------------
-; Core Regions
+; Core Regions - Required
 regions[page_top] = Page Top
-regions[header] = Header
-regions[highlight] = Highlight
-regions[help] = Help
 regions[content] = Content
-regions[sidebar_first] = Sidebar First
-regions[footer] = Footer
 regions[page_bottom] = Page Bottom
 
+; Core Regions
+regions[header] = Header
+regions[sidebar_first] = Sidebar First
+regions[footer] = Footer
+
 ; Core Regions - Disabled
+; place System Help block in Content region, weighted above Main content block.
 ;regions[sidebar_second] = Sidebar Second
+;regions[highlight] = Highlight
+;regions[help] = Help
 
 ; Custom Regions
 regions[navigation] = Navigation
