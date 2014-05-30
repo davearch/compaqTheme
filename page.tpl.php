@@ -1,6 +1,13 @@
 <?php
 
 /**
+ * This template was copied into the theme from modules/system/page.tpl.php
+ * in order to override it.
+ *
+ * Customizations:
+ * TODO
+ *
+ ******************************************************************************
  * @file
  * Default theme implementation to display a single Drupal page.
  *
